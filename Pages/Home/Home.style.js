@@ -1,0 +1,80 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  meteo_basic: {
+    flex: 2,
+    backgroundColor: "transperant",
+    margin: 10,
+    marginTop: 30,
+    borderRadius: 8,
+    // justifyContent: "center",
+    // alignItems: "center",
+    // borderWidth: 2,
+    // borderColor: "#333",
+  },
+  searchbar: {
+    flex: 2,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "transperant",
+    borderWidth: 2,
+    borderColor: "#333",
+    margin: 10,
+    borderRadius: 8,
+  },
+  meteo_advanced: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "transperant",
+    margin: 10,
+    borderRadius: 8,
+    // borderWidth: 2,
+    // borderColor: "#333",
+  },
+  text: {
+    fontSize: 20,
+    textAlign: "center",
+    color: "#333",
+    padding: 10,
+  },
+  imgBackground: {
+    flex: 1,
+    resizeMode: "cover",
+  },
+  searchbar: {
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    marginVertical: 90,
+    backgroundColor: "transparent",
+  },
+  searchInput: {
+    height: 60,
+    width: 300,
+    borderRadius: 20,
+    paddingLeft: 15,
+    backgroundColor: "transperant",
+    borderWidth: 2,
+    borderColor: "#a38b8c",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    // borderColor: "black",
+    // borderWidth: 1,
+    // backgroundColor: "#fff",
+  },
+  searchInput: {
+    backgroundColor: "white",
+    padding: 20,
+    borderRadius: 5,
+    fontSize: 16,
+    width: "90%",
+  },
+});
+
+export default styles;
